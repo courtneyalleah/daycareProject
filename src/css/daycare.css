@@ -1,0 +1,67 @@
+h1 {
+  color: #0066CD;
+  font-family: "Segoe UI";
+}
+
+h2 {
+  color: #0066CD;
+  font-family: "Segoe UI";
+  text-align: center;
+}
+
+h3 {
+  color: #0066CD;
+  font-family: "Segoe UI";
+}
+
+.ul-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+body{
+  margin: 0;
+  background-color: #BEBBBB;
+
+}
+
+/***Navigation Bar styling***/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 10px;
+  overflow: hidden;
+  background-color: #0066CD;
+}
+
+li {
+  float: left;
+  color: white;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-family: "Segoe UI";
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/**About US**/
+.about-us {
+  padding: 75px 100px;
+  background-color: white;
+  color: #BEBBBB;
+  font-family: "Segoe UI";
+
+}
