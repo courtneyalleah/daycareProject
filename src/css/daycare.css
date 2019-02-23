@@ -1,3 +1,11 @@
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #0066CD;
+  font-family: "Segoe UI";
+}
+
 h1 {
   color: #0066CD;
   font-family: "Segoe UI";
@@ -54,7 +62,14 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #0066CD;
+  font: bold;
+}
+
+footer {
+
+  color: white;
+  font-family: "Segoe UI";
 }
 
 /**About US**/

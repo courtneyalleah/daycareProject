@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
+import Lessons from '../Homepage/Navigation/Lessons/lessons.js';
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 import '../css/daycare.css';
 
 class HomePage extends Component {
 
   render() {
     return(
+      <HashRouter>
       <div>
         <ul className="header">
-          <li>Home</li>
-          <li>Lessons</li>
-          <li>Menus</li>
-          <li>Upcoming Events</li>
-          <li>Contact Us</li>
-          <li>Careers</li>
-          <li>Pay Your Bill Online</li>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/lessons">Lessons</NavLink></li>
+          <li><NavLink to="/menus">Menus</NavLink></li>
+          <li><NavLink to="/upcomingevents">Upcoming Events</NavLink></li>
+          <li><NavLink to="/contactus">Contact Us</NavLink></li>
+          <li><NavLink to="/careers">Careers</NavLink></li>
+          <li><NavLink to="/payyourbillonline">Pay Your Bill Online</NavLink></li>
         </ul>
-        <div>
-        
-        </div>
         <div>
           <section className="about-us">
             <h3>About Us</h3>
@@ -29,7 +33,7 @@ class HomePage extends Component {
         </div>
       </div>
 
-
+      </HashRouter>
     );
   }
 }
